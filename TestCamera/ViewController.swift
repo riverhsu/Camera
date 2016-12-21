@@ -52,7 +52,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
     }
     
-    //Because simulator nver use Camera, 
     //tells the delegate that the user picked a still image or movie
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject: AnyObject]! ) {
         pickedImage.image = image
